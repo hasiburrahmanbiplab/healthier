@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>healthier</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme:{
+                extend:{
+                  colors:{
+
+                  }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer components{
+              .container{
+                margin: 0 auto;
+                padding: 0 10px;
+              }
+              .common-heading{
+                @apply text-3xl text-black font-sans font-semibold capitalize ;
+              }
+              .link-style{
+                 @apply  text-sm text-gray-600 font-sans uppercase hover:text-green-700 transform duration-150
+              }
+        }
+    </style>
+</head>
+<body class="bg-white space-y-16">
+   <div class="hero-part">
+     <div class="container">
+        <header class="">
+            <nav class="bg-white flex flex-col gap-y-7 lg:flex-row lg:gap-y-0 lg:gap-x-7 justify-between items-center py-5 md:py-4">
+                <div class="nav-start order-2 lg:order-1">
+                    <ul class="flex flex-col gap-y-5 lg:flex-row lg:gap-y-0 lg:gap-x-7">
+                        <li><a href="#" class="text-sm text-black font-sans font-medium uppercase hover:text-green-700 transform duration-200">Home</a></li>
+                        <li><a href="#" class="text-sm text-black font-sans font-medium uppercase hover:text-green-700 transform duration-200">About</a></li>
+                        <li><a href="#" class="text-sm text-black font-sans font-medium uppercase hover:text-green-700 transform duration-200">Recipes</a></li>
+                    </ul>
+                </div>
+                <div class="nav-center order-1 lg:order-2">
+                    <div class="logo">
+                        <a href="#"><img src="image/logo.png" alt="logo"></a>            
+                    </div>
+                </div>
+                <div class="nav-end order-3 lg:order-3">
+                    <ul class="flex items-center gap-x-7">
+                        <li><a href="#" class="text-sm text-black font-sans font-medium uppercase hover:text-green-700 transform duration-200">photos</a></li>
+                        <li><a href="#" class="text-sm text-black font-sans font-medium uppercase hover:text-green-700 transform duration-200"> Blog </a></li>
+                        <button class="text-sm text-white font-serif font-medium uppercase flex justify-center items-center bg-green-800 w-24 h-8 rounded-full hover:bg-green-900 transform duration-200">Contact</button>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+     </div>
+   </div>
+   <div id="section-two" class="bg-white py-3">
+    <div class="container">
+        <div class="main-section-two grid grid-cols-1 justify-items-center gap-y-7 sm:grid-cols-2 sm:gap-7 md:grid-cols-4 md:gap-0 lg:grid-cols-5">
+            <div class="inner-item">
+               <div class="img">
+                   <img src="image/Rectangle 50.png" alt="image">
+               </div>
+               <div class="text">
+                   <p class="text-sm font-medium font-sans text-black capitalize pt-3">5 Helpful Tips for Growing Healthy Succulents</p>
+               </div>
+            </div>
+            <div class="inner-item">
+               <div class="img">
+                   <img src="image/Rectangle 51.png" alt="image">
+               </div>
+               <div class="text">
+                   <p class="text-sm font-medium font-sans text-black capitalize pt-3">5 Helpful Tips for Growing Healthy Succulents</p>
+               </div>
+            </div>
+            <div class="inner-item">
+               <div class="img">
+                   <img src="image/Rectangle 52.png" alt="image">
+               </div>
+               <div class="text">
+                   <p class="text-sm font-medium font-sans text-black capitalize pt-3">5 Helpful Tips for Growing Healthy Succulents</p>
+               </div>
+            </div>
+            <div class="inner-item">
+               <div class="img">
+                   <img src="image/Rectangle 53.png" alt="image">
+               </div>
+               <div class="text">
+                   <p class="text-sm font-medium font-sans text-black capitalize pt-3">5 Helpful Tips for Growing Healthy Succulents</p>
+               </div>
+            </div>
+            <div class="inner-item hidden lg:block">
+               <div class="img">
+                   <img src="image/Rectangle 54.png" alt="image">
+               </div>
+               <div class="text">
+                   <p class="text-sm font-medium font-sans text-black capitalize pt-3">5 Helpful Tips for Growing Healthy Succulents</p>
+               </div>
+            </div>
+         </div>
+    </div>
+   </div>
+   <div id="section-three" class="bg-white py-3">
+    <div class="container">
+        <div class="main-section-three grid grid-cols-1 justify-center lg:grid-cols-[1.5fr_2fr_1.5fr] place-content-center sm:place-items-start gap-y-12 lg:gap-y-0 lg:space-x-5">
+            <div class="inner-item flex flex-col sm:flex-row lg:flex-col gap-y-6 lg:gap-y-5 sm:gap-x-6 order-2 sm:order-3 lg:order-1 justify-self-center ">
+               <div class="item-1">
+                <div class="img">
+                    <img src="image/image-1.png" alt="">
+                </div>
+                <p class="pt-3 text-sm text-black font-sans font-medium capitalize">9 Benefits of Napping (Backed by Science)</p>
+               </div>
+               <div class="item-2">
+                <div class="img">
+                    <img src="image/image-2.png" alt="">
+                </div>
+                <p class="pt-3 text-sm text-black font-sans font-medium capitalize">9 Benefits of Napping (Backed by Science)</p>
+               </div>
+            </div>
+            <div class="inner-item relative order-1 sm:order-2 lg:order-2">
+                <div class="overly absolute left-0 top-0 w-full h-full bg-slate-950/10 p-10 flex flex-col-reverse">
+                    <h3 class="text-white text-lg font-sans font-semibold max-w-96">The Real Reason Why You Feel Exhausted (No Matter How Much You Sleep)</h3>
+                </div>
+                <img src="image/image-3.png" alt="">
+            </div>
+            <div class="inner-item divide-y-2 space-y-3 divide-grey-700 order-3 sm:order-1 lg:order-3 justify-self-center sm:justify-self-start me-10 sm:me-0">
+                <div class="inner-text">
+                    <p class="text-xs text-gray-700 font-sans font-medium uppercase tracking-widest">dating and Relationships</p>
+                    <h3 class="text-lg text-gray-700 font-sans capitalize font-medium py-2">How 'Weak Ties' Can Strengthen Our Relationships</h3>
+                </div>
+                <div class="inner-text">
+                    <p class="text-xs text-gray-700 font-sans font-medium uppercase tracking-widest">dating and Relationships</p>
+                    <h3 class="text-lg text-gray-700 font-sans capitalize font-medium py-2">What It's Really Like to Date While Fat</h3>
+                </div>
+                <div class="inner-text">
+                    <p class="text-xs text-gray-700 font-sans font-medium uppercase tracking-widest">dating and Relationships</p>
+                    <h3 class="text-lg text-gray-700 font-sans capitalize font-medium py-2">Benefits to Having Much Older Friends</h3>
+                </div>
+                <div class="inner-text">
+                    <p class="text-xs text-gray-700 font-sans font-medium uppercase tracking-widest">dating and Relationships</p>
+                    <h3 class="text-lg text-gray-700 font-sans capitalize font-medium py-2">How Often You Should Wash Your Hair</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div id="section-four" class="bg-white py-3">
+      <div class="container">
+        <div class="main-section-four space-y-6">
+            <div class="popular-header w-full text-center md:text-start">
+                <h2 class="common-heading text-black font-semibold">Popular stories</h2>
+            </div>
+            <div class="popular-image grid grid-cols-1 md:grid-cols-3 justify-items-center gap-y-8 md:gap-y-0 md:gap-x-5 py-3 ">
+                <div class="inner-item">
+                    <div class="img">
+                        <img src="image/image-4.png" alt="image">
+                    </div>
+                    <div class="text">
+                        <p class="text-sm font-medium font-sans text-black capitalize pt-3">9 Benefits of Napping (Backed by Science)</p>
+                    </div>
+                 </div>
+                <div class="inner-item">
+                    <div class="img">
+                        <img src="image/image-5.png" alt="image">
+                    </div>
+                    <div class="text">
+                        <p class="text-sm font-medium font-sans text-black capitalize pt-3">The Real Reason Why You Feel Exhausted (No Matter How Much You Sleep)</p>
+                    </div>
+                 </div>
+                <div class="inner-item">
+                    <div class="img">
+                        <img src="image/image-6.png" alt="image">
+                    </div>
+                    <div class="text">
+                        <p class="text-sm font-medium font-sans text-black capitalize pt-3">34 Ways To Live in the Moment And Grow in the Moment</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+      </div>
+   </div>
+   <div id="section-five" class="bg-white py-3">
+    <div class="container">
+        <div class="main-section-five bg-green-800 max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 justify-center items-center p-3  gap-x-4">
+              <div class="inner-item max-w-96  mx-auto py-4">
+                 <div class="inner-text space-y-3 text-center sm:text-start">
+                    <h2 class=" common-heading text-white w-full">Subscribe us for more life transforming tips and articles</h2>
+                    <p class="text-sm text-gray-400 font-sans font-medium capitalize w-full">Subscribe us for more life transforming tips</p>
+                 </div>
+              </div>
+              <div class="inner-item py-4">
+                <form action="" class="max-w-96 mx-auto flex flex-col gap-y-3">
+                    <input type="text"  class="w-full py-3 placeholder:text-gray-600 text-sm font-sans font-medium bg-white focus:outline-none p-3 text-gray-700 text-center" id="" name="" placeholder="Name">
+                    <input type="email" class="w-full py-3 placeholder:text-gray-600 text-sm font-sans font-medium bg-white focus:outline-none p-3 text-gray-700 text-center" id="" name="" placeholder="Email Address">
+                    <button class="w-full bg-yellow-300 text-sm font-sans font-semibold uppercase text-green-700 hover:bg-yellow-200 py-3">send me the link</button>
+                </form>
+              </div>
+        </div>
+    </div>
+   </div>
+   <div id="section-six" class="bg-white ">
+      <div class="container">
+        <div class="main-section-six space-y-6">
+            <div class="section-six-hero grid grid-cols-1 sm:grid-cols-[1.5fr_2fr]">
+                <div class="text flex flex-col justify-center items-start h-full bg-yellow-100 order-2 sm:order-1 py-3 sm:py-0">
+                   <div class="inner-text max-w-96 mx-auto p-3 text-center sm:text-start">
+                    <span class="block text-xs font-sans font-normal uppercase tracking-widest">Health & Happiness</span>
+                    <h2 class=" common-heading text-green-900 py-3">Get Rid of Your Backpain with these 3 Simple Exercises</h2>
+                    <p>Let’s Discover more about your next destination</p>
+                    <button class="bg-green-900 py-2 px-5 text-xs text-white font-sans font-medium uppercase rounded-full mt-3 hover:bg-green-950">read full story</button>
+                   </div>
+                </div>
+                <div class="image flex justify-end order-1 sm:order-2">
+                   <img src="image/image-7.png" class=" h-full" alt="">
+                </div>
+            </div>
+            <div class="popular-image grid grid-cols-1 md:grid-cols-3 justify-items-center gap-y-8 md:gap-y-0 md:gap-x-5 py-3 ">
+                <div class="inner-item">
+                    <div class="img">
+                        <img src="image/image-4.png" alt="image">
+                    </div>
+                    <div class="text">
+                        <p class="text-sm font-medium font-sans text-black capitalize pt-3">9 Benefits of Napping (Backed by Science)</p>
+                    </div>
+                 </div>
+                <div class="inner-item">
+                    <div class="img">
+                        <img src="image/image-5.png" alt="image">
+                    </div>
+                    <div class="text">
+                        <p class="text-sm font-medium font-sans text-black capitalize pt-3">The Real Reason Why You Feel Exhausted (No Matter How Much You Sleep)</p>
+                    </div>
+                 </div>
+                <div class="inner-item">
+                    <div class="img">
+                        <img src="image/image-6.png" alt="image">
+                    </div>
+                    <div class="text">
+                        <p class="text-sm font-medium font-sans text-black capitalize pt-3">34 Ways To Live in the Moment And Grow in the Moment</p>
+                    </div>
+                 </div>
+            </div>
+          </div>
+        </div>
+   </div>
+   <div id="section-seven" class="bg-white">
+      <div class="container">
+         <div class="main-section-seven space-y-6">
+            <div class="love-heading w-full">
+                <h2 class="common-heading text-black font-semibold text-center md:text-start">Love & Relationship</h2>
+            </div>
+            <div class=" section-seven-hero grid grid-cols-1 sm:grid-cols-[1.5fr_2fr]">
+                <div class="text flex flex-col justify-center items-start h-full bg-black order-2 sm:order-1 py-3 sm:py-0">
+                   <div class="inner-text max-w-96 mx-auto p-3 text-center sm:text-start">
+                    <h2 class=" common-heading text-white py-3">Get Rid of Your Backpain with these 3 Simple Exercises</h2>
+                    <p>Let’s Discover more about your next destination</p>
+                    <button class="bg-green-900 py-2 px-5 text-xs text-white font-sans font-medium uppercase rounded-full mt-3 hover:bg-green-950">read full story</button>
+                   </div>
+                </div>
+                <div class="image flex justify-end order-1 sm:order-2">
+                   <img src="image/image-11.png" class=" h-full" alt="">
+                </div>
+            </div>
+            <div class="popular-image grid grid-cols-1 md:grid-cols-3 justify-items-center gap-y-8 md:gap-y-0 md:gap-x-5 py-3 ">
+                <div class="inner-item">
+                    <div class="img">
+                        <img src="image/image-12.png" alt="image">
+                    </div>
+                    <div class="text">
+                        <p class="text-sm font-medium font-sans text-black capitalize pt-3">9 Benefits of Napping (Backed by Science)</p>
+                    </div>
+                 </div>
+                <div class="inner-item">
+                    <div class="img">
+                        <img src="image/image-13.png" alt="image">
+                    </div>
+                    <div class="text">
+                        <p class="text-sm font-medium font-sans text-black capitalize pt-3">The Real Reason Why You Feel Exhausted (No Matter How Much You Sleep)</p>
+                    </div>
+                 </div>
+                <div class="inner-item">
+                    <div class="img">
+                        <img src="image/image-14.png" alt="image">
+                    </div>
+                    <div class="text">
+                        <p class="text-sm font-medium font-sans text-black capitalize pt-3">34 Ways To Live in the Moment And Grow in the Moment</p>
+                    </div>
+                 </div>
+            </div>
+          </div>
+         </div>
+      </div>
+      <div id="section-eight" class="bg-white">
+        <div class="container">
+            <div class="main-section-eight grid grid-cols-12 space-y-6">
+                <div class="stories-heading col-span-full w-full">
+                    <h2 class="common-heading text-black font-semibold text-center md:text-start">Featured Stories</h2>
+                </div>
+                <div class="hero-stories col-span-full grid grid-cols-1 md:grid-cols-[1fr_1fr] items-center lg:grid-cols-[1fr_2fr] bg-green-900">
+                     <div class="inner-img order-2 md:order-1">
+                        <img src="image/image-15.png" alt="">
+                     </div>
+                     <div class="stories-text flex items-center bg-green-900 order-1 md:order-2">
+                         <div class="text-box w-11/12 mx-auto divide-y divide-black divide-dotted">
+                            <div class="inner-text py-3">
+                                <p class="text-xs text-blue-100 font-sans font-medium uppercase tracking-widest">dating and Relationships</p>
+                                <h3 class="text-lg text-white font-sans capitalize font-medium py-2">How 'Weak Ties' Can Strengthen Our Relationships</h3>
+                            </div>
+                            <div class="inner-text py-3">
+                                <p class="text-xs text-blue-100 font-sans font-medium uppercase tracking-widest">dating and Relationships</p>
+                                <h3 class="text-lg text-white font-sans capitalize font-medium py-2">What It's Really Like to Date While Fat</h3>
+                            </div>
+                            <div class="inner-text py-3">
+                                <p class="text-xs text-blue-100 font-sans font-medium uppercase tracking-widest">dating and Relationships</p>
+                                <h3 class="text-lg text-white font-sans capitalize font-medium py-2">Benefits to Having Much Older Friends</h3>
+                            </div>
+                            <div class="inner-text py-3">
+                                <p class="text-xs text-blue-100 font-sans font-medium uppercase tracking-widest">Health tips</p>
+                                <h3 class="text-lg text-white font-sans capitalize font-medium py-2">How Often You Should Wash Your Hair</h3>
+                            </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <footer class="bg-black pt-16">
+        <div class="container">
+           <div class="footer-content grid grid-cols-1 space-y-8 md:grid-cols-4 md:space-y-0 pb-2">
+              <div class="inner-item">
+                <div class="social-link">
+                    <ul class="flex flex-col gap-y-3">
+                        <li><a href="#" class="link-style">Twitter</a></li>
+                        <li><a href="#" class="link-style">Facebook</a></li>
+                        <li><a href="#" class="link-style">Instagram</a></li>
+                        <li><a href="#" class="link-style">Linkedin</a></li>
+                    </ul>
+                </div>
+              </div>
+              <div class="inner-item">
+                <div class="social-link">
+                    <ul class="flex flex-col gap-y-3">
+                        <li><a href="#" class="link-style">About</a></li>
+                        <li><a href="#" class="link-style">Contact</a></li>
+                        <li><a href="#" class="link-style">Blog</a></li>
+                        <li><a href="#" class="link-style">Policy</a></li>
+                        <li><a href="#" class="link-style">Terms</a></li>
+                    </ul>
+                </div>
+              </div>
+              <div class="inner-item">
+                <div class="social-link">
+                    <ul class="flex flex-col gap-y-3">
+                        <li><a href="#" class="link-style">Twitter</a></li>
+                        <li><a href="#" class="link-style">Facebook</a></li>
+                        <li><a href="#" class="link-style">Instagram</a></li>
+                        <li><a href="#" class="link-style">Linkedin</a></li>
+                    </ul>
+                </div>
+              </div>
+              <div class="inner-item">
+                <div class="contact space-y-5">
+                    <div class="part-1">
+                        <a href="#" class="link-style">custom22@gmail.com</a>
+                        <address class="py-1 text-gray-700">15Th Street Avenue, New York, USA</address>
+                        <a href="#" class="link-style pt-2">011-554-8798-6556</a>
+                    </div>
+                    <div class="part-2">
+                        <ul class="flex gap-x-8">
+                            <li class="inline-block"><a href="#"><img src="image/Vector.png" alt=""></a></li>
+                            <li class="inline-block"><a href="#"><img src="image/Vector-2.png" alt=""></a></li>
+                            <li class="inline-block"><a href="#"><img src="image/Vector-3.png" alt=""></a></li>
+                            <li class="inline-block"><a href="#"><img src="image/Vector-4.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+           </div>
+        </div>
+        <div class="copyright bg-gray-700 text-center flex justify-center flex-wrap gap-3 py-5">
+            <p class="text-white font-sans font-medium capitalize">copyright@2024 design by Hasibur</p>
+            <a href="https://hasiburrahmanbiplab.github.io/marketing-agency/" class="text-yellow-600 font-sans hover:underline font-medium capitalize ">view more design</a>
+        </div>
+      </footer>
+</body>
+</html>
+
+                        
